@@ -2,44 +2,49 @@
 
 ## 📌 Overview
 This project simulates a **University/Campus Network** using Cisco Packet Tracer.  
-It is based on a case study of Albion University with **two campuses** located 20 miles apart, hosting multiple faculties and departments.  
+It covers two campuses (Main + Branch) with multiple faculties and departments.  
 The design demonstrates VLAN segmentation, RIP v2 routing, DHCP services, and server connectivity.
 
 ## 🏫 Network Requirements
 - **Main Campus**
-  - **Building A:** Administrative staff (Management, HR, Finance) + Faculty of Business  
-    - VLANs used for department separation  
-    - DHCP server provides dynamic IPs to staff PCs  
-  - **Building B:** Faculty of Engineering & Computing + Faculty of Art & Design  
-  - **Building C:** Student labs + IT Department (hosts University Web Server and other servers)  
-  - External Email Server hosted on the cloud  
-
-- **Smaller Campus**
-  - Faculty of Health & Sciences (staff and student labs on separate floors)
+  - Building A: Admin, HR, Finance, Business (VLANs + DHCP)
+  - Building B: Engineering & Computing + Art & Design
+  - Building C: Student Labs + IT Department (Web Server, other servers)
+  - External Email Server (Cloud)
+- **Branch Campus**
+  - Faculty of Health & Sciences (Staff + Student Labs)
 
 ## ⚙️ Configuration Highlights
-- Each faculty/department on its own IP network  
-- Switches configured with VLANs and security settings  
-- **Routing:**  
-  - RIP v2 for internal routers  
-  - Static route for external email server  
-- DHCP configured on Building A router for dynamic IP allocation  
-
-## 🛠️ Tasks Completed
-1. **Topology Design:** Planned and prototyped full network in Packet Tracer  
-2. **Configuration:** Implemented VLANs, RIP v2, DHCP, and static routing  
-3. **Evaluation:** Tested connectivity, scalability, reliability, and security  
+- VLANs for each department/faculty  
+- RIP v2 for internal routing  
+- Static route for external email server  
+- DHCP for Building A staff PCs  
+- Servers hosted in IT Department + Cloud  
 
 ## 📂 Files
-- `University-Campus-Networking-Project.pkt` → Main Packet Tracer simulation file  
+- `University-Campus-Networking-Project.pkt` → Main simulation file  
 
 ## 🚀 How to Run
-1. Download the `.pkt` file from this repository  
-2. Open it in Cisco Packet Tracer (v8.x recommended)  
-3. Explore the topology, VLANs, and routing setup  
+1. Download the `.pkt` file  
+2. Open in Cisco Packet Tracer (v8.x recommended)  
+3. Explore VLANs, routing, and server connectivity  
 
 ## 📸 Screenshots
-(Add screenshots of your topology here for better presentation)
+
+### Campus Topology
+![Campus Topology](screenshots/campus-topology.png)
+
+### VLAN Configuration (Building A)
+![VLAN Setup](screenshots/buildingA-vlan.png)
+
+### RIP Routing Table
+![RIP Routing](screenshots/rip-routing.png)
+
+### DHCP Test
+![DHCP IP Allocation](screenshots/dhcp-test.png)
+
+### Server Connectivity
+![Server Connectivity](screenshots/server-connectivity.png)
 
 ## 📑 License
-This project is licensed under the MIT License.
+Licensed under the MIT License.
