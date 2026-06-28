@@ -29,22 +29,23 @@ The design demonstrates VLAN segmentation, RIP v2 routing, DHCP services, and se
 2. Open in Cisco Packet Tracer (v8.x recommended)  
 3. Explore VLANs, routing, and server connectivity  
 
-## 📸 Screenshots
+## 📸 Project Screenshots
 
-### Campus Topology
+### 1. Campus Topology
 ![Campus Topology](screenshots/campus-topology.png)
 
-### VLAN Configuration (Building A)
-![VLAN Setup](screenshots/buildingA-vlan.png)
+### 2. Building A VLAN Configuration
+![Building A VLAN](screenshots/buildingA-vlan.png)
 
-### RIP Routing Table
+### 3. RIP Routing Setup
 ![RIP Routing](screenshots/rip-routing.png)
 
-### DHCP Test
-![DHCP IP Allocation](screenshots/dhcp-test.png)
+### 4. DHCP Test
+![DHCP Test](screenshots/dhcp-test.png)
 
-### Server Connectivity
+### 5. Server Connectivity
 ![Server Connectivity](screenshots/server-connectivity.png)
+
 
 ## 📑 License
 Licensed under the MIT License.
